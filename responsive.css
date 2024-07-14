@@ -57,16 +57,17 @@
 }
 
 
-/* @media screen and (width >=860px) {
+@media screen and (width >=900px) {
     .main-container {
-        grid-template-columns: 52% 352px;
-    }
-} */
-
-/* @media screen and (width >=900px) {
-    .main-container {
-        gap: 35px;
-        width: 855px;
+        padding: 18px;
+        width: 95vw;
+        grid-template-columns: 51% 385px;
+        grid-template-areas: 'data image';
+        width: 880px;
     }
 
-} */
+    .data {
+        padding: 65px 20px;
+    }
+
+}
